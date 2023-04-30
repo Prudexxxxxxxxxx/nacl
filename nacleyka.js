@@ -46,4 +46,9 @@ function openCity(evt, cityName) {
     area.oninput = () => {
       localStorage.setItem('area', area.value)
     };
+      area1.value = localStorage.getItem('area1');
+      area1.oninput = () => {
+        localStorage.setItem('area1', area1.value)
+    };
+
 
